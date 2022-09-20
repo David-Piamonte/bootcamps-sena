@@ -95,7 +95,7 @@ class BootcampController extends Controller
         //response:
         return response()->json([   
             "success"=> true ,
-            "message" => "Bootcamp eliminado"
+            "message" => "Bootcamp eliminado",
             "datos" =>  $bootcamp->id
         ] , 200);
     }
